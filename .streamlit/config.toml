@@ -1,0 +1,6 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+
+[global]
+dependencies = "requirements.txt"
