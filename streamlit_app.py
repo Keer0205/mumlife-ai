@@ -1,5 +1,5 @@
 import streamlit as st
-from xai import Client
+from xai_sdk import Client
 
 st.set_page_config(page_title="MumLife AI", layout="centered")
 
@@ -40,6 +40,6 @@ if prompt := st.chat_input("Type your mum drama here..."):
         st.session_state.messages.append({"role": "assistant", "content": reply})
 
 st.markdown("---")
-st.caption("Made with ❤️ by @Astrokeerthi | £19/month – 7-day free trial")
+st.caption("Made with love by @Astrokeerthi | £19/month – 7-day free trial")
 if st.button("Subscribe £19/month"):
     st.markdown("[Pay here – instant access](https://gumroad.com/l/mumlifeai)")
