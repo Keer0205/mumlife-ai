@@ -1,5 +1,5 @@
 import streamlit as st
-from xai_sdk.client import Client  # FIXED LINE!
+from xai_sdk.client import Client
 
 st.set_page_config(page_title="MumLife AI", layout="centered")
 
